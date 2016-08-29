@@ -15,6 +15,11 @@ namespace Web.Models
         public static OuthUser OuthUser { get; set; }
     }
 
+    public class C1
+    {
+        public string Ololo { get; set; }
+    }
+
     public class CommentGetter
     {
         public void GetComments()
